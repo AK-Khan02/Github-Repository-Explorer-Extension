@@ -36,6 +36,3 @@ The GitHub Repository Explorer is a Chrome extension designed to enhance the pro
 
 Click on the extension's icon in the Chrome toolbar to open the popup window. The popup will display a list of currently open GitHub repository tabs. Click on any repository in the list to open it in VSCode's web version.
 
----
-
-This README provides a comprehensive overview of the GitHub Repository Explorer Chrome extension, detailing its purpose, features, functionality, and usage instructions.
