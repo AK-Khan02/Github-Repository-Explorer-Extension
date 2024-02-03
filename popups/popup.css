@@ -1,0 +1,58 @@
+body {
+    width: 24rem; /* Increased width */
+    cursor: default;
+    padding: 10pt;
+    box-sizing: border-box; /* New addition */
+    background-color: #f5f5f5; /* Lighter background */
+}
+
+h1 {
+    font-family: 'Segoe UI', Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600; /* Slightly lighter than bold */
+    text-align: center;
+    margin-bottom: 10pt; /* Increased margin */
+    color: #2C5282; /* Changed to a softer blue */
+    font-size: 1.5rem; /* Increased font size */
+}
+
+h3 {
+    font-family: 'Segoe UI', Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 5pt; /* Added margin for spacing */
+    color: #2a4365; /* Darker shade for contrast */
+}
+
+p, footer p {
+    font-family: 'Segoe UI', Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    margin-top: 5pt;
+    color: #4a5568; /* Dark gray for better readability */
+}
+
+ul {
+    list-style-type: none;
+    margin: 20pt 0; /* Increased margin */
+    padding-inline-start: 0;
+}
+
+li {
+    color: #333333; /* Darker text color for better contrast */
+    padding: 10pt; /* Increased padding */
+    margin-bottom: 5pt;
+    background: linear-gradient(145deg, #e2efff, #c7eaff); /* Subtle gradient */
+    border-radius: 6pt; /* Slightly rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    transition: background 0.3s, color 0.3s; /* Smooth transition */
+}
+
+li:hover {
+    background: #4D9FEC; /* Lighter blue for better visibility */
+    color: #333333; /* Darker text color for better contrast */
+    /* Keep text color white for contrast */
+    transition: background 0.3s, color 0.3s; /* Smooth transition for hover effect */
+}
+
+footer p {
+    font-size: smaller;
+    text-align: center;
+    color: #718096; /* Softer color */
+}

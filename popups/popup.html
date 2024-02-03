@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./popup.css">
+    <title>GitHub Repository Explorer</title>
+</head>
+<body>
+    <header>
+        <h1>GitHub Repository Explorer</h1>
+    </header>
+
+    <main>
+        <p>Discover and open active GitHub repositories in VSCode directly from your browser.</p>
+        <p id="activeRepoCount">Loading...</p>
+        <ul id="repositoryList"></ul>
+
+        <!-- Template for repository list items -->
+        <template id="repositoryItemTemplate">
+            <li class="repositoryItem">
+                <a class="repositoryLink">
+                    <h3 class="repositoryTitle">Repository Name</h3>
+                    <p class="repositoryPath">/path/to/repository</p>
+                </a>
+            </li>
+        </template>
+    </main>
+
+    <footer>
+        <p>Want to contribute? <a href="https://github.com/AK-Khan02/Github-Repository-Explorer-Extension" target="_blank" rel="noopener noreferrer">Join the project on GitHub.</a></p>
+    </footer>
+
+    <script src="./popup.js" type="module"></script>
+</body>
+</html>

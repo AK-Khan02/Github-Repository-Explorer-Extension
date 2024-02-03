@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "author": "khanabdulmuhaiman@gmail.com",
+    "name": "Github Repository Viewer",
+    "version": "1.0.0",
+    "description": "Open any active github repository in vscode web",
+    "icons": {
+        "16": "icons/logo.png",
+        "32": "icons/logo.png",
+        "64": "icons/logo.png"
+    },
+    "action": {
+        "default_popup": "popups/popup.html"
+    },
+    "host_permissions": [
+        "https://github.com/*"
+    ],
+    "permissions": [
+        "tabs",
+        "activeTab"
+    ]
+}
